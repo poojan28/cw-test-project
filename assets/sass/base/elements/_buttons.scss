@@ -1,0 +1,78 @@
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.btn-Primary .elementor-button,
+.comment-respond form .form-submit input#submit,
+.btn-primary {
+    outline: none;
+    color: ColorVariable(primary-color) !important;
+    cursor: pointer;
+    background-color: transparent !important;
+    border: 1px solid ColorVariable(primary-color) !important;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-property: background-color;
+    z-index: 2;
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    &::before {
+        transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        content: '';
+        width: 0%;
+        height: 100%;
+        background-color: #0089C9;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &:hover,
+    &:focus {
+        border-color: #0089C9 !important;
+        color: #fff !important;
+        &::before {
+            width: 100%;
+            
+        }
+    }
+}
+
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.reply .comment-reply-link,
+.comment-respond form .form-submit input#submit,
+.btn-prop {
+    // border: none;
+    display: inline-block;
+    text-align: center;
+    font-family: $font__main;
+    white-space: nowrap;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 37px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    position: relative;
+    border-radius: 0px !important;
+}
+
+.reply .comment-reply-link,
+.btn-Secondary {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: ColorVariable(secondary-color) !important;
+    border: 1px solid ColorVariable(secondary-color);
+    text-decoration: none;
+    color: #fff !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    &:hover,
+    &:focus {
+        background-color: ColorVariable(primary-color) !important;
+        border: 1px solid ColorVariable(primary-color) !important;
+    }
+}

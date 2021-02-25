@@ -1,0 +1,27 @@
+$color__background-body: #fff;
+$color__background-screen: #E4572E;
+$color__background-hr: #ccc;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+
+$color__text-screen: #959595;//p tag
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #4169e1; 
+$color__link-visited: #800080; 
+$color__link-hover: #191970; 
+$color__text-main: #4E4E4E;//text main color
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+/* $primary-color:ColorVariable(primary-color);
+$secondary-color:ColorVariable(secondary-color); */
+
+@function ColorVariable($var) {
+  @return var(--Code-wing-test-#{$var});
+}

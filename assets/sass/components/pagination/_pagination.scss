@@ -1,0 +1,212 @@
+/*   ==================================================
+              Pagination
+    ================================================== */
+/* no sidebar align pagination center */
+.has-no-sidebar {
+    .navigation.pagination .nav-links {
+        justify-content: center;
+    }
+}
+
+.navigation {
+    margin-top: 80px;
+    padding:50px 0;
+    border-radius: 5px;
+    @media(max-width:767px) {
+        margin-top:66px;
+    }
+    
+
+    &.pagination {
+        .screen-reader-text {
+            display: none;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+
+            .page-numbers {
+                width: 56px;
+                text-align: center;
+                margin-right: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 18px;
+                padding: 9px 14px;
+                background-color: rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 0.08);
+                 color:ColorVariable(primary-color);
+                cursor: pointer;
+                text-decoration: none;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                transition-property: border color;
+                transition: all 0.3s ease-in-out;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                outline: none;
+                border: 2px solid transparent;
+
+                &:hover {
+                    background-color:ColorVariable(secondary-color);
+                    border: 2px solid rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 1);
+                    color: #fff;
+                }
+                &.current{
+                    background-color:ColorVariable(secondary-color);
+                    border: 2px solid rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 1);
+                    color: #fff;
+                }
+            }
+
+            .prev {
+                font-size: 14px !important;
+                line-height: 18px !important;
+                font-weight: 500 !important;
+                width: 123px;
+                text-align: center;
+                background-color: transparent;
+                border: 2px solid rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 1);
+
+                &:before {
+                    display: inline-block;
+                    transform: translateX(0px);
+                    transition: 0.3s all ease-in-out;
+                    transition-property: transform;
+                    margin-right: 5px;
+                    content: "\f053";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                }
+
+                &:hover {
+                    &:before {
+                        transform: translateX(-5px);
+                    }
+                }
+            }
+
+            .next {
+                font-size: 14px !important;
+                line-height: 18px !important;
+                font-weight: 500 !important;
+                width: 123px;
+                text-align: center;
+                background-color: transparent;
+                border: 2px solid rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 1);
+
+                &:after {
+                    display: inline-block;
+                    transform: translateX(0px);
+                    transition: 0.3s all ease-in-out;
+                    transition-property: transform;
+                    margin-left: 5px;
+                    content: "\f054";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                }
+
+                &:hover {
+                    &:after {
+                        transform: translateX(5px);
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+/* --------------------------------single-page-pagination  ----------------------------- */
+.single-page-pagination{
+    margin-top:50px;
+    .navigation{
+        margin-top: 0;
+    background-color: unset;
+    padding:0;
+    border-radius:0;
+    @media(max-width:767px) {
+        margin-bottom:0;
+    }
+        span.nav-subtitle {
+            font-weight: 400;
+            display: none;
+        }
+        &.post-navigation{
+            .nav-links{
+                display: flex;
+                background: #f9f9f9;
+                -ms-flex-align: center;
+                align-items: center;
+                text-align: center;
+                flex-flow:row wrap;
+                padding: 0 15px;
+                padding-bottom: 15px;
+                @media(max-width:767px){
+                    flex-direction: column;
+                    align-items: stretch;
+                }
+                
+                a{
+                    width:100%;
+                    color: ColorVariable(primary-color);
+                    font-size: 15px;
+                    font-weight: 500;
+                    display: inline-block;
+                    &:before,&:after{
+                        display: inline-block;
+                        font-weight: 900;
+                        font-family: "Font Awesome 5 Free";
+                        transform: translate(0);
+                        transition: transform 0.3s ease-in-out;
+                    }
+                }
+                
+                
+                .nav-previous a{
+                    text-align: left;
+                   &:before{
+                       content:"\f100";
+                       margin-right:8px;
+                       
+                   }     
+                }
+                .nav-next a{
+                    &:after{
+                        content:"\f101";
+                        margin-left:8px;
+                        
+                        
+                    } 
+                }
+                .nav-next ,.nav-previous{
+                    flex: 1;
+                    margin: 15px 15px 0px 0;
+                    
+                    &:hover,&:focus{
+                        a{
+                            color:ColorVariable(secondary-color);
+                            &:before{
+                                transform: translateX(-6px);
+                            }
+                            &:after{
+                                transform: translateX(6px);
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+
+/*   ==================================================
+              pagination Ended
+    ================================================== */

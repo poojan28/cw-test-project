@@ -1,0 +1,26 @@
+body {
+    background: $color__background-body; // Fallback for when there is no custom background color defined.
+    width: 100%;
+    overflow-x: hidden;
+    font-family: $font__main;
+    margin: 0 !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: ColorVariable(secondary-color);
+    color: #fff;
+}

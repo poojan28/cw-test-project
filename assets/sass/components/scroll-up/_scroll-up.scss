@@ -1,0 +1,80 @@
+/*   ==================================================
+              Scroll up
+    ================================================== */
+    #btn-scrollup{
+      position: fixed;
+      bottom: -100px;
+      right: 32px;
+      -webkit-transition: all .7s ease-in-out;
+      -moz-transition: all .7s ease-in-out;
+      -o-transition: all .7s ease-in-out;
+      -ms-transition: all .7s ease-in-out;
+      transition: all .7s ease-in-out;
+      z-index: 99999999;
+
+    }
+    a{
+        &.scrollup{
+            /* background-color: ColorVariable(primary-color); */
+            float: right;
+            line-height: 1.2;
+            padding: 15px 15px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+            border-radius: 5px;
+            /* box-shadow:0 0 15px rgba($color: #000000, $alpha: 0.1); */
+            &:before{
+                content:"🖠";
+                position: absolute;
+                display: inline-block;
+                font-size: 50px;
+                color:ColorVariable(secondary-color);
+                animation: scrollup 1s ease-in-out infinite;
+            }
+            
+            &:hover,
+            &:focus
+            {
+                &:before{
+                    color: rgba($color: var(--Code-wing-test-primary-rbga), $alpha: 0.7);
+                    
+                    
+                }
+                
+            }
+        }
+        
+    }
+
+    //animation
+    @keyframes scrollup {
+        0% {
+          transform: translate(0, 0);
+        }
+        
+        50% {
+          transform: translate(0, -2px);
+        }
+        100% {
+            transform: translate(0, 0);
+          }
+      }
+      @-webkit-keyframes scrollup {
+        0% {
+          transform: translate(0, 0);
+        }
+        
+        50% {
+          transform: translate(0, -2px);
+        }
+        100% {
+            transform: translate(0, 0);
+          }
+      }
+
+    /*   ==================================================
+              Scroll up
+    ================================================== */

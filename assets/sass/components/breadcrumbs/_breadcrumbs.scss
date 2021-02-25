@@ -1,0 +1,103 @@
+/*   ==================================================
+              BreadCrumbs
+    ================================================== */
+
+    #breadcrumb {
+        padding: 11px 20px 0;
+        margin-top:0px;
+            .breadcrumb-trail {
+                width: 100%;
+                border-radius: 8px;
+    
+                .trail-items {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin:0;
+                    padding: 0;
+                    
+    
+                    .trail-begin {
+                        &:before {
+                            content: "\f015";
+                            margin-right: 5px;
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 900;
+                            font-size: 18px;
+                            color: ColorVariable(secondary-color);
+                            transition:all 0.2s  ease-in-out;
+                            transition-property: color;
+                        }
+    
+                        &:hover {
+                            &:before {
+    
+                                color: rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 0.9);
+                            }
+                        }
+                    }
+    
+                    li {
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        padding: 4px 8px 4px 0px;
+                        font-size: 17px;
+                        /* background-color: #ffffff26; */
+                        
+                    
+    
+                         &:after {
+                            content: "❯";
+                            margin-left: 7px;
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 300;
+                            color: #fff;
+                            font-size: 14px;
+                            line-height: 14px;
+
+                        } 
+    
+                        &:last-child {
+                            &::after {
+                                display: none;
+                            }
+                        }
+    
+                        span {
+                            text-transform: capitalize;
+                            padding: 0 !important;
+                        }
+    
+                        a {
+                            
+                            span {
+                                color: ColorVariable(secondary-color);
+                                transition:all 0.2s  ease-in-out;
+                                transition-property: color;
+                                font-weight: 500;
+    
+                                &:hover {
+                                    color: rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 0.9);
+                                }
+                            }
+                        }
+    
+                        span {
+                            font-weight: 500;
+                            letter-spacing: 0.2px;
+                            color: #fff;
+    
+                        }
+                    }
+    
+    
+    
+                }
+            }
+      
+    }
+/*   ==================================================
+              BreadCrumbs
+    ================================================== */

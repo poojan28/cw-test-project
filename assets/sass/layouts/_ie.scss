@@ -1,0 +1,24 @@
+.ie{
+    //for footer
+    #footer .footer-widgets-inner .inner-wrapper{
+        display: flex;
+        flex-flow:row wrap;
+        .wp-widget{
+            flex: 1;
+            min-width: 260px;
+        }
+    }
+    //blog post
+    #primary .blog-post .wrapper .grid-collection {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    #primary .blog-post .wrapper .grid-collection .grid-item {
+        -ms-flex: 1;
+        flex: 1;
+        min-width: 280px;
+        max-width: 410px;
+    }
+}

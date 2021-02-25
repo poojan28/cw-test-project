@@ -1,0 +1,25 @@
+.site a {
+	color: ColorVariable(secondary-color);
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+
+	/* &:visited {
+		color: $color__link-visited;
+	} */
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 0.8) ;
+		
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

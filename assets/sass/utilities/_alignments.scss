@@ -1,0 +1,43 @@
+.alignleft {
+
+	/*rtl:ignore*/
+	float: left;
+
+	/*rtl:ignore*/
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+
+.alignright {
+
+	/*rtl:ignore*/
+	float: right;
+
+	/*rtl:ignore*/
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+
+.aligncenter {
+	clear: both;
+
+	@include center-block;
+
+	margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 64em){
+	.entry-content blockquote.alignleft, .entry-content blockquote.alignright {
+		width: 52%;
+	}
+}
+@media screen and (max-width: 64em){
+	.entry-content blockquote.alignleft, .entry-content blockquote.alignright {
+		width:100%;
+		margin-left:0;
+		margin-right:0;
+	}
+}
+
