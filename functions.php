@@ -270,8 +270,6 @@ function code_wing_test_project_scripts() {
 	wp_style_add_data( 'code-wing-test-project-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'code-wing-test-project-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array( 'jquery' ), _S_VERSION, true );
-	wp_enqueue_script( 'code-wing-test-project-counter', get_template_directory_uri() . '/third-party/purecounter/purecounter.min.js', array( 'jquery' ), _S_VERSION, true );
-	wp_enqueue_script( 'code-wing-test-project-isotope', get_template_directory_uri() . '/third-party/isotope/js/isotope.pkgd.min.js', array( 'jquery' ), _S_VERSION, true );
 	wp_enqueue_script( 'code-wing-test-project-slick', get_template_directory_uri() . '/assets/slick/slick.js', array( 'jquery' ), _S_VERSION, true );
 	wp_enqueue_script( 'code-wing-test-project-trap-focus', get_template_directory_uri() . '/assets/js/trap-focus.js', array( 'jquery' ), _S_VERSION, true );
 	wp_register_script( 'code-wing-test-project-custom-js', get_template_directory_uri() . '/assets/js/custom.js', array( 'jquery' ), _S_VERSION, true );

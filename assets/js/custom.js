@@ -96,7 +96,7 @@ jQuery(function($) {
     
         $('.trip-destination-slider').slick({
             dots: false,
-            infinite: false,
+            infinite: true,
             speed: 300,
             slidesToShow: 3.5,
             centerPadding: '40px',
@@ -105,8 +105,8 @@ jQuery(function($) {
                 breakpoint: 1200,
                 settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true
+                slidesToScroll: 1
+                
                 }
             },
             {
