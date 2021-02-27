@@ -32,19 +32,44 @@
                                     font-size: 70px;
                                     line-height: 87px;
                                     margin: 0;
+                                    transition: all 0.3s ease-in-out;
                                     a {
                                         color: #FFFFFF;
                                         &:hover {
                                             color: ColorVariable(secondary-color);
                                         }
                                     }
+                                    
                                 }
+                                
                             }
                             .banner-button {
                                 margin-top: 43px;
                                 .own-prop{
                                     padding:14px 47px;
                                 }
+                            }
+                            @media(max-width:992px){
+                                text-align: center;
+                                .banner-title {
+                                    margin: 0 auto;
+                                    
+                                    h1{
+                                        font-size: 61px;
+                                        line-height: 68px;
+                                    }
+                                }
+                               
+                                
+                            }
+                            @media(max-width:767px){
+                                .banner-title {
+                                    h1{
+                                        font-size: 45px;
+                                    line-height: 53px;
+                                    }
+                                }
+                                
                             }
                         }
                     }
@@ -56,8 +81,12 @@
         .trip-destination{
             background-color: #F7F6F0;
             padding:100px 0;
+            @media(max-width:767px){
+                padding:66px 0;
+            }
             .wrapper{
                 display: flex;
+                align-items: center;
                 grid-gap:3.75em;
                 .section-heading{
                     text-align: left;
@@ -247,19 +276,43 @@
                             }
                         }
                     }
+                    .section-button{
+                        margin-top:60px;
+                        text-align: left;
+                        margin-left: 15px;
+                    }
+                }
+                @media(max-width:992px){
+                    flex-direction: column;
+                    grid-gap:1em;
+                    align-items: unset;
+                    .section-heading{
+                        max-width:100%;
+                        min-width: 100%;
+                        text-align: center;
+                        .slider-button{
+                            justify-content: center;
+                        }
+                    }
+                    .inner-container{
+                        .section-button{
+                            text-align: center;
+                            margin-left: 0;
+                        }
+                    }
                 }
             }
-            .section-button{
-                margin-top:60px;
-            }
+            
+            
         }/* trip-destination */
 
         .about-section {
-            background-position: center;
+            background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
             .section-wrapper {
                 padding-top: 232px;
+                margin:0;
                 .section-row {
                     display: flex;
                     align-items: flex-end;
@@ -268,6 +321,7 @@
                         flex: 1;
                         .section-heading {
                             text-align: left;
+                            margin-bottom: 30px;
                         }
                         .about-inner-content {
                             p {
@@ -285,6 +339,23 @@
                         }
                     }
                 }
+                @media(max-width:992px){
+                    padding-top: 130px;
+                    .section-row{
+                        flex-direction: column;
+                        .section-column{
+                            &:first-child{
+                                display: none;
+                            }
+                            .section-heading{
+                                text-align: center;
+                            }
+                            .about-inner-content{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
             }
         }/* .about-section */
 
@@ -295,6 +366,9 @@
                         display: grid;
                         grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
                         grid-gap: 1.87em;
+                        @media(max-width:1040px){
+                            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+                        }
                         .grid-item {
                             border-bottom: 1px solid #EAEAEA;
                             .img-container {
@@ -311,16 +385,17 @@
                                 }
                             }
                             .trip-meta-info {
-                                padding-bottom: 30px;
+                                padding-bottom: 25px;
                                 .grid-item-title {
                                     margin-top: -50px;
                                     position: relative;
-                                    padding: 28px 0;
+                                    padding: 28px 0 23px;
                                     background-color: #fff;
                                     width: calc(100% - 30px);
                                     .trip-name {
                                         font-size: 24px;
                                         color: #121212;
+                                        font-family: $font__main;
                                         font-weight: 500;
                                         line-height: 30px;
                                         a {
@@ -334,13 +409,18 @@
                                     display: flex;
                                     align-items: center;
                                     justify-content: space-between;
+                                    flex-flow: row wrap;
                                     span {
                                         font-size: 18px;
+                                        padding:5px 0;
                                         color: #474747;
                                         line-height: 18px;
                                         font-weight: 400;
                                         display: inline-flex;
                                         align-items: center;
+                                        &:nth-child(2){
+                                            padding:5px 10px;
+                                        }
                                         svg {
                                             fill: #0089C9;
                                             width: 24px;
@@ -377,6 +457,9 @@
             padding-top:60px;
             .wrapper{
                 padding-bottom: 100px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
                 .inner-container{
                     .feature-trip-row{
                         display: flex;
@@ -458,10 +541,42 @@
                     }
                 }
             }
+            @media(max-width:992px){
+                padding-top:0;
+                .wrapper{
+                    padding:66px 0;
+                    .inner-container{
+                        .feature-trip-row{
+                            flex-direction: column;
+                            .feature-trip-column{
+                                &:first-child{
+                                    flex:1;
+                                }
+                                .img-container{
+                                    margin-top: 0px;
+                                }
+                                .feature-trip-column-wrapper{
+                                    padding-top:30px;
+                                    text-align: center;
+                                    .trip-button,.trip-price,.trip-excerpt{
+                                        padding-left:0px;
+                                    }
+                                    .trip-excerpt{
+                                        margin-bottom: 27px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }/* .feature-trip */
        
         .trip-departure-detail{
             padding:100px 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             .wrapper{
                 .section-heading{
                     .sub-heading{
@@ -472,9 +587,7 @@
                     }
                 }
                 .inner-container{
-                    margin-top:60px;
                     .trip-detail{
-                        
                         p{
                             border-bottom: 1px solid rgba(255,255,255,0.2);
                             padding:10px 0 10px 0; 
@@ -536,6 +649,39 @@
                     }
                 }
             }
+            @media(max-width:767px){
+                padding:66px 0;
+                .wrapper{
+                    .inner-container{
+                        .trip-detail{
+                            display: flex;
+                            flex-flow: row wrap;
+                            grid-gap:1em;
+                            p{
+                                flex:48%;
+                                max-width: 48%;
+                                flex-direction: column;
+                                text-align: left;
+                                justify-content: space-between;
+                                
+                                &:first-child{
+                                    border-width: 1px;
+                                }
+                                span{
+                                    max-width: 100% !important;
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(max-width:549px){
+               .inner-container .trip-detail p{
+                   flex: 100% !important;
+                   max-width: 100% !important;
+               }
+            }
         }
 
         .blog-section {
@@ -548,6 +694,9 @@
                         display: grid;
                         grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
                         grid-gap: 1.87em;
+                        @media(max-width:1100px){
+                            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+                        }
                         .grid-item {
                             border-bottom: 1px solid #EAEAEA;
                             display: flex;
@@ -574,7 +723,7 @@
                                 
                                 h3 {
                                     font-size: 24px;
-                                    font-weight: 500;
+                                    font-weight: 700;
                                     line-height: 36px;
                                     margin:0;
                                     a {
@@ -628,7 +777,325 @@
             }
         } /* .blog-section */
     
-       
+       .testimonial{
+           position: relative;
+           z-index: 2;
+            &::before{
+                content: "";
+                position: absolute;
+                background-color:#8AB61E ;
+                width: 43%;
+                height:100%;
+                left: 0;
+                top:0;
+                z-index: 0;
+
+            }
+           .wrapper{
+                display: flex;
+                align-items: center;
+               .section-heading{
+                   position: relative;
+                   min-width: 356px;
+                    max-width: 356px;
+                    text-align: left;
+                   
+                   .sub-heading{
+                       color:#fff;
+                       
+                   }
+                   .heading-title{
+                        color:#fff;
+                        
+                   }
+                  
+                   .slider-button{
+                    margin-top:40px;
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 20px;
+                   
+                    .slick-prev,.slick-next{
+                        width:60px;
+                        height: 60px;
+                        display: flex;
+                        outline: 0;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        padding:0 !important;
+                        transition: all 0.4s ease-in-out;
+                        background-color: transparent !important;
+                        border-radius: 50% !important;
+                        border:4px solid rgba(255,255,255,0.1) !important;
+                        svg{
+                            width:16px;
+                            height:16px;
+                            fill:#fff;
+                            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        }
+                        &:hover{
+                            background-color: ColorVariable(secondary-color)  !important;
+                            border-color:ColorVariable(secondary-color) !important ;
+                            color:#fff !important;
+                            svg{
+                                fill:#fff !important;
+                            }
+                        }
+                    }
+                    .slick-prev{
+                        &:hover{
+                            svg{
+                                transform: translateX(-3px);
+                            }
+                        }
+                       
+                    }
+                    .slick-next{
+                        &:hover{
+                            svg{
+                                transform: translateX(3px);
+                            }
+                        }
+                       
+                    }
+                    }
+               }
+               .inner-container{
+                   flex:1;
+                   max-width: 100%;
+                   .testimonial-slider{
+                       margin:0;
+                       .slick-next, .slick-prev{
+                           display: none  !important;
+                       }
+                       .slick-slide{
+                           opacity: 0.6;
+                           transition:all 0.3s ease-in-out;
+                           &.slick-active{
+                            opacity: 1;
+                            transition:all 0.3s ease-in-out;
+                           }
+                       }
+                       .slider-item{
+                        z-index: 2;
+                        margin:0 20px;
+                        position: relative;
+                        padding:80px 0;
+                           .slider-item-wrapper{
+                               display: flex;
+                               align-items: stretch;
+                               background-color: #fff;
+                               box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+                               .user-detail{
+                                    
+                                    padding: 0px 38px;
+                                    text-align: center;
+                                    min-width: 240px;
+                                    background: #F7F6F0;
+                                    /* height: inherit; */
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+
+                                   img{
+                                    width:100px;
+                                    height: 100px;
+                                    border-radius: 50%;
+                                    object-fit: cover;
+                                    display: block;
+                                    margin: 0 auto;
+                                   }
+                                   p{
+                                    font-size: 18px;
+                                   }
+                                   .name{
+                                        
+                                        line-height: 33px;
+                                        color:#121212;
+                                        margin:19px 0 0;
+                                   }
+                                   .location{
+                                       
+                                        line-height: 22.5px;
+                                        color:#474747;
+                                        margin:8px 0 0;
+                                   }
+                               }
+                               .slider-content{
+                                   padding:58px 40px 48px;
+                                   background-color: #fff;
+                                   .slider-title{
+                                       font-family: $font__main;
+                                       font-size: 30px;
+                                       font-weight:500;
+                                       line-height: 30px;
+                                       a{
+                                        color:#121212;
+                                            &:hover{
+                                                color:ColorVariable(secondary-color);
+                                            }
+                                       }
+                                   }
+                                   .trip-meta-info{
+                                       display: flex;
+                                       align-items: center;
+                                       
+                                       .trip-review{
+                                            margin-top:11px;
+                                            display: flex;
+                                            align-items: center;
+                                                                                
+                                           .trip__review-dot{
+                                                display: inline-block;
+                                                position: relative;
+                                                line-height: 1;
+                                                width: 141px;
+                                                svg{
+                                                    width:24px;
+                                                    height: 24px;
+                                                    g{
+                                                        stroke: #b0b0b0  !important;
+                                                    }
+                                                    #rating-2{
+                                                        fill:#b0b0b0;
+                                                    }
+                                                }
+                                                .svg-icon-wrapper{
+                                                    display: inline-block;
+                                                    width: 141px;
+                                                    svg{
+                                                        
+                                                        g{
+                                                            stroke: #b0b0b0  !important;
+                                                        }
+                                                        #rating-2{
+                                                            fill:#b0b0b0;
+                                                        }
+                                                    }
+                                                }
+                                               
+                                                .trip__review-dot-rating{
+                                                    position: absolute;
+                                                    left: 0;
+                                                    top: 0;
+                                                    overflow: hidden;
+                                                    height: 24px;
+                                                    display: inline-block;
+                                                    svg{
+                                                        
+                                                        g{
+                                                            stroke: #18A581  !important;
+                                                        }
+                                                        #rating-2{
+                                                            fill:#18A581;
+                                                        }
+                                                    }
+                                                    
+                                                }
+                                           }
+                                           .rating-text{
+                                                font-size: 16px;
+                                                line-height: 16px;
+                                                margin:0 0 0 10px;
+                                               color:ColorVariable(primary-color);
+                                           }
+                                       }
+                                       .posted-on{
+                                           margin-top:11px;
+                                           margin-left: 18px;
+                                           padding-left: 15px;
+                                           border-left: 1px solid #EAEAEA;
+                                           p{
+                                            font-size: 16px;
+                                            line-height: 16px;
+                                            margin:0;
+                                           }
+                                           
+                                       }
+                                   }
+                                   .user-comment{
+                                       margin-top:20px;
+                                       p{
+                                           font-size:20px;
+                                           line-height: 33px;
+                                           margin:0;
+
+                                       }
+                                   }
+                               }
+                           }
+                           @media(max-width:767px){
+                                .slider-item-wrapper{
+                                    flex-direction: column;
+                                    .user-detail{
+                                        min-width: unset;
+                                        padding: 38px 38px;
+                                    }
+                                    .slider-content{
+                                        text-align: center;
+                                        .trip-meta-info{
+                                            justify-content: center;
+                                            flex-direction: column;
+                                            .posted-on{
+                                                border:0;
+                                                margin-left:0;
+                                                padding-left:0;
+                                            }
+                                        }
+                                    }
+                                }
+                           }
+                       }
+                   }
+               }
+           }
+           @media(max-width:1200px){
+               &::before{
+                   display: none;
+               }
+               .wrapper{
+                   flex-direction: column;
+                   align-items: unset;
+                    .section-heading{
+                        max-width: 100%;
+                        min-width: 100%;
+                        text-align: center;
+                        .sub-heading{
+                            color:ColorVariable(secondary-color);
+                            
+                        }
+                        .heading-title{
+                             color:ColorVariable(primary-color);
+                             
+                        }
+                        .slider-button{
+                            margin-top:40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            grid-gap: 20px;
+                           
+                            .slick-prev,.slick-next{
+                                border:4px solid rgba($color: var(--Code-wing-test-secondary-rbga), $alpha: 0.1) !important;
+                                svg{
+                                    width:16px;
+                                    height:16px;
+                                    fill:ColorVariable(secondary-color) !important;
+                                    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                                }
+                               
+                            }
+                        }
+                    }
+                    .inner-container .testimonial-slider .slider-item{
+                        padding:0;
+                        margin:10px;
+                        box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+                    }
+               }
+           }
+       }
     }
 }
 
@@ -641,8 +1108,11 @@
         
     }
     .section-heading {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         text-align: center;
+        @media(max-width:992px){
+            margin-bottom: 45px;
+        }
         .heading-title {
             color: ColorVariable(primary-color);
             font-size: 40px;

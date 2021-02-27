@@ -92,12 +92,12 @@ get_header(); ?>
                         <div>
                             <div class="destination-slider-item">
                                 <div class="img-container">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt.png"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt-2.png"
                                         alt="">
                                     <a href="#" class="link"></a>
                                     <div class="overlay-content">
                                         <div class="slider-item-title">
-                                        <p class="title"> <a href="#">Bhaktapur Sight Seeing Day Tour</a> </p>
+                                        <p class="title"> <a href="#">World Heritage Site Private Day Tour</a> </p>
                                         </div>
                                         <div class="slider-item-button">
                                             <a href="#">Discover More 
@@ -116,12 +116,12 @@ get_header(); ?>
                         <div>
                             <div class="destination-slider-item">
                                 <div class="img-container">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt.png"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt-3.png"
                                         alt="">
                                         <a href="#" class="link"></a>
                                     <div class="overlay-content">
                                         <div class="slider-item-title">
-                                            <p class="title"> <a href="#">Bhaktapur Sight Seeing Day Tour</a> </p>
+                                            <p class="title"> <a href="#">Kathmandu Valley Cycling Tour</a> </p>
                                         </div>
                                         <div class="slider-item-button">
                                             <a href="#">Discover More 
@@ -140,7 +140,7 @@ get_header(); ?>
                         <div>
                             <div class="destination-slider-item">
                                 <div class="img-container">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt.png"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bkt-4.png"
                                         alt="">
                                     <a href="#" class="link"></a>
                                     <div class="overlay-content">
@@ -186,11 +186,12 @@ get_header(); ?>
                             </div>
                         </div><!-- fifth-slider -->
                     </div>
+                    <div class="section-button">
+                        <a href="" class="btn-primary btn-prop own-prop">View All Tours</a>
+                    </div>
                 </div>
             </div>
-            <div class="section-button">
-                <a href="" class="btn-primary btn-prop own-prop">View All Tours</a>
-            </div>
+            
         </div>
     </div><!-- .trip-destination -->
 
@@ -207,7 +208,7 @@ get_header(); ?>
                     <!-- .section-column -->
                     <div class="section-column">
                         <div class="section-heading">
-                            <p class="heading-excerpt">20 YEARS OF ADVENTURE</p>
+                            <p class="sub-heading">20 YEARS OF ADVENTURE</p>
                             <h2 class="heading-title">Welcome to NEST Adventure</h2>
                         </div>
                         <div class="about-inner-content">
@@ -279,7 +280,7 @@ get_header(); ?>
                         <!-- .grid-item -->
                         <div class="grid-item">
                             <div class="img-container">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/destination-1.png"
+                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/destination-2.png"
                                             alt="">
                                 </a>
                             </div>
@@ -320,7 +321,7 @@ get_header(); ?>
                         <!-- .grid-item -->
                         <div class="grid-item">
                             <div class="img-container">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/destination-1.png"
+                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/destination-3.png"
                                             alt="">
                                 </a>
                             </div>
@@ -408,7 +409,7 @@ get_header(); ?>
         </div>
     </div><!-- feature-trip section -->
 
-    <div class="trip-departure-detail "style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/trip-detail.png);" >
+    <div class="trip-departure-detail" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/trip-detail.png);" >
         <div class="container">
             <div class="wrapper">
                 <div class="section-heading ">
@@ -417,7 +418,7 @@ get_header(); ?>
                 </div><!-- section-heading -->
                 <div class="inner-container">
                     <div class="trip-detail">
-                        <p class="detail-heading"> <span>Departing</span><span>Trip-Name</span><span>Days</span><span>Price</span><span>Space Left</span><span></span></p>
+                        <p class="detail-heading"> <span>Departing</span><span>Trip-Name</span><span>Days</span><span>Price</span><span>Space Left</span><span> &nbsp; </span></p>
                         <p> <span>2018-02-25</span><span> <a href="">Manaslu Trek</a> </span><span>10</span><span>$750</span><span>8</span><span><a href="" class="btn-trinary btn-prop">View Trip</a></span></p>
                         <p> <span>2018-02-25</span><span><a href="">Annapurna Base Camp Trek</a> </span><span>8</span><span>$750</span><span>8</span><span><a href="" class="btn-trinary btn-prop">View Trip</a></span></p>
                         <p> <span>2018-02-25</span><span> <a href="">Everest Base Camp Trek</a> </span><span>8</span><span>$750</span><span>8</span><span><a href="" class="btn-trinary btn-prop">View Trip</a></span></p>
@@ -518,7 +519,888 @@ get_header(); ?>
         </div>
     </div><!-- .trip-destination -->
 
-
+    <div class="testimonial section" >
+        <div class="container">
+            <div class="wrapper">
+                <div class="section-heading">
+                    <p class="sub-heading">Testimonials</p>
+                    <h2 class="heading-title">Our Customer Reviews</h2>
+                    
+                    <div class="slider-button">
+                        <button class="slick-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path id="Path_376" data-name="Path 376" d="M20,11H7.83l5.59-5.59L12,4,4,12l8,8,1.41-1.41L7.83,13H20Z" transform="translate(-4 -4)" />
+                            </svg>
+                        </button>
+                        <button class="slick-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path id="Path_376" data-name="Path 376" d="M4,11H16.17L10.58,5.41,12,4l8,8-8,8-1.41-1.41L16.17,13H4Z" transform="translate(-4 -4)" />
+                            </svg>
+                        </button>
+                    </div><!-- .slider-button -->
+                </div><!-- .section-heading -->
+                <div class="inner-container">
+                    <div class="testimonial-slider">
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb.png"
+                                                    alt="">
+                                        <p class="name">Chris Adams</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- first-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb-2.png"
+                                                    alt="">
+                                        <p class="name">Andreea Nelson</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb.png"
+                                                    alt="">
+                                        <p class="name">Chris Adams</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb-2.png"
+                                                    alt="">
+                                        <p class="name">Andreea Nelson</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb.png"
+                                                    alt="">
+                                        <p class="name">Chris Adams</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb-2.png"
+                                                    alt="">
+                                        <p class="name">Andreea Nelson</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                        <div>
+                            <div class="slider-item">
+                                <div class="slider-item-wrapper">
+                                    <div class="user-detail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/author-thumb.png"
+                                                    alt="">
+                                        <p class="name">Chris Adams</p>
+                                        <p class="location">Cape Town Central, South Africa</p>
+                                    </div><!-- user-detail -->
+                                    <div class="slider-content">
+                                        <h3 class="slider-title"> <a href="#">Manaslu circuit with group of 5</a> </h3>
+                                        <div class="trip-meta-info">
+                                            <div class="trip-review">
+                                                <span class="trip__review-dot">
+                                                    <span class="svg-icon-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="trip__review-dot-rating" style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <g id="rating" transform="translate(-1076 -1414)">
+                                                                <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+                                                                <rect width="24" height="24" rx="12" stroke="none"/>
+                                                                <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+                                                                </g>
+                                                                <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                                <span class="rating-text">of 25 Reviews</span>
+                                            </div><!-- trip-review -->
+                                            <div class="posted-on">
+                                                <p>December, 23, 2018</p>
+                                            </div>
+                                        </div><!-- trip-meta-info -->
+                                        <div class="user-comment">
+                                            <p>Thanks to NEST for organizing this wonderful trek and facilitating this amazing experience. NT our guide was excellent. He was always around to help and showed flexibility to ensure we where coping with every challenging day. He always had a joke on hand</p>
+                                        </div>
+                                    </div><!-- slider-content -->
+                                </div><!-- .slider-item-wrapper -->
+                            </div><!-- .slider-item -->
+                        </div> <!-- second-slider-int -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
 
 </div><!-- #home-sections -->

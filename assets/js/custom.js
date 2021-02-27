@@ -76,12 +76,20 @@ jQuery(function($) {
     * slick
     * =========================
     */
-    /* slick button for gallery slider */
+    /* slick button for trip-destination */
     $(document).on('click', '.trip-destination .section-heading  .slick-next', function() {
         $(".trip-destination-slider .slick-next").trigger('click');
     });
     $(document).on('click', '.trip-destination .section-heading  .slick-prev', function() {
         $(".trip-destination-slider .slick-prev").trigger('click');
+    });
+
+    /* slick button for testimonial */
+    $(document).on('click', '.testimonial .section-heading  .slick-next', function() {
+        $(".testimonial-slider .slick-next").trigger('click');
+    });
+    $(document).on('click', '.testimonial .section-heading  .slick-prev', function() {
+        $(".testimonial-slider .slick-prev").trigger('click');
     });
     function wc_test_project_slick_slider() {
 
@@ -121,58 +129,26 @@ jQuery(function($) {
             ]
             });
         $('.testimonial-slider').slick({
-            dots: true,
+            dots: false,
             infinite: false,
             speed: 300,
-            slidesToShow: 1,
-            centerPadding: '40px',
-            slidesToScroll: 1
-        });
-
-        $('.logo-slider').slick({
-            dots: false,
-            infinite: true,
-            speed: 800,
-            autoplaySpeed: 3000,
-            arrows: false,
-            autoplay: true,
-            slidesToShow: 5,
+            slidesToShow: 1.3,
             centerPadding: '40px',
             slidesToScroll: 1,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 1,
-                        infinite: true
-                    }
-                },
-                {
-                    breakpoint: 808,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 601,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 359,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+                breakpoint: 1200,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+               
                 }
+            }
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
                 // instead of a settings object
             ]
         });
+
     }
     wc_test_project_slick_slider();
     /**

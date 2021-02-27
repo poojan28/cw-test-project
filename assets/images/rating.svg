@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="rating" transform="translate(-1076 -1414)">
+    <g id="base" transform="translate(1076 1414)" fill="#fff" stroke="#18a581" stroke-width="2">
+      <rect width="24" height="24" rx="12" stroke="none"/>
+      <rect x="1" y="1" width="22" height="22" rx="11" fill="none"/>
+    </g>
+    <rect id="rating-2" data-name="rating" width="10" height="10" rx="5" transform="translate(1083 1421)" />
+  </g>
+</svg>
