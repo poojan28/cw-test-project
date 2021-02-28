@@ -1,6 +1,6 @@
 <?php
 /**
- * wen themes functions and definitions
+ * cw-project themes functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -25,7 +25,7 @@ if ( ! function_exists( 'code_wing_test_project_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on wen themes, use a find and replace
+		 * If you're building a theme based on cw-test-project themes, use a find and replace
 		 * to change 'code-wing-test-project' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'code-wing-test-project', get_template_directory() . '/languages' );

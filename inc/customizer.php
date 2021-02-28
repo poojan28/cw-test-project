@@ -1,6 +1,6 @@
 <?php
 /**
- * wen themes Theme Customizer
+ * cw-test-project Theme Customizer
  *
  * @package edulife
  */
